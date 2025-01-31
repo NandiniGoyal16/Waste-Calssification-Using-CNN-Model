@@ -10,6 +10,8 @@ This project implements a Convolutional Neural Network (CNN) to classify waste i
 - [Week-wise Work Done](#week-wise-work-done)
 - [Usage](#usage)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ---
 
