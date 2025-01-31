@@ -162,7 +162,7 @@ This structure will make your GitHub repository clear and easy to follow for any
 If you have any questions or suggestions, feel free to reach out!
 
 - **Email**: [nandini04.goyal@gmail.com](mailto:nandini04.goyal@gmail.com)
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin)
+- **LinkedIn**: [https://www.linkedin.com/in/nandini-goyal-6b9116259/](https://www.linkedin.com/in/nandini-goyal-6b9116259/)
 - **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
 
 I would love to hear from you! 😊
