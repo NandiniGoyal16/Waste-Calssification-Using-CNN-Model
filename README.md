@@ -163,7 +163,7 @@ If you have any questions or suggestions, feel free to reach out!
 
 - **Email**: [nandini04.goyal@gmail.com](mailto:nandini04.goyal@gmail.com)
 - **LinkedIn**: [https://www.linkedin.com/in/nandini-goyal-6b9116259/](https://www.linkedin.com/in/nandini-goyal-6b9116259/)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **GitHub**: [https://github.com/NandiniGoyal16](https://github.com/NandiniGoyal16)
 
 I would love to hear from you! 😊
 
