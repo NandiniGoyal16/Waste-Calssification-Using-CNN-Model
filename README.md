@@ -1,9 +1,9 @@
-## Waste Management Using CNN Model ♻️
+# Waste Management Using CNN Model ♻️
 
-# Overview
+## Overview
 This project implements a Convolutional Neural Network (CNN) to classify waste images into two categories: **Organic** and **Recyclable**. The model is designed to automate waste management by classifying images of waste products efficiently using deep learning.
 
-## Table of Contents
+# Table of Contents
 - [Project Overview](#overview)
 - [Dataset](#dataset)
 - [Technologies & Requirements](#technologies--requirements)
@@ -13,7 +13,7 @@ This project implements a Convolutional Neural Network (CNN) to classify waste i
 
 ---
 
-# Dataset 📂
+## Dataset 📂
 The dataset for the project is linked here: [Waste Classification Dataset](https://www.kaggle.com/datasets/techsash/waste-classification-data).
 
 To download the dataset directly, you can use the following code:
@@ -23,7 +23,7 @@ import kagglehub # you may have to pip install that!
 path = kagglehub.dataset_download("techsash/waste-classification-data")
 print("Path to dataset files:", path)
 ```
-## Technologies & Requirements ⚙️
+# Technologies & Requirements ⚙️
 
 Libraries Used:
 tensorflow
@@ -48,9 +48,9 @@ matplotlib
 tqdm
 kagglehub
 ```
-## Week-wise Work Done 📅
+# Week-wise Work Done 📅
 
-# Week 1: Data Preprocessing and Visualization
+## Week 1: Data Preprocessing and Visualization
 Data Loading: Loaded images from the training and testing dataset folders.
 Image Preprocessing: Converted the images to RGB format using OpenCV's cv2.cvtColor().
 Data Visualization: Used a pie chart to visualize the distribution of waste categories (Organic and Recyclable).
@@ -70,7 +70,7 @@ plt.pie(data.label.value_counts(), labels=['Organic', 'Recyclable'], autopct='%0
         colors=['#a0d157', '#c48bb8'], startangle=90, explode=[0.05, 0.05])
 plt.show()
 ```
-# Week 2: Model Architecture & Training
+## Week 2: Model Architecture & Training
 Model Architecture: Defined a CNN architecture using Conv2D, MaxPooling2D, Flatten, Dense layers to classify images.
 Compilation: Compiled the model with the Adam optimizer and binary cross-entropy loss function.
 Model Training: Trained the model using the ImageDataGenerator class for both the training and testing datasets.
@@ -113,31 +113,31 @@ model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"]
 # Summary of the model architecture
 model.summary()
 ```
-## Usage 🚀
+# Usage 🚀
 
-# Clone the repository:
+## Clone the repository:
 ```git clone https://github.com/yourusername/waste-management-cnn.git```
-# Install dependencies:
+## Install dependencies:
 ```pip install -r requirements.txt```
-# Download the dataset:
+## Download the dataset:
 ```import kagglehub # you may have to pip install that!
 path = kagglehub.dataset_download("techsash/waste-classification-data")
 print("Path to dataset files:", path)
 ```
-# Train the model:
+## Train the model:
 ```hist = model.fit(
     train_generator, 
     epochs=10, 
     validation_data=test_generator
 )
 ```
-# Evaluate the model: After training, you can evaluate the model's performance on the test set.
+## Evaluate the model: After training, you can evaluate the model's performance on the test set.
 
-## License 📜
+# License 📜
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments 🎉
+# Acknowledgments 🎉
 
 Dataset Source: Kaggle - Waste Classification Dataset
 OpenCV: Used for image preprocessing and visualization.
@@ -154,11 +154,11 @@ TensorFlow/Keras: Used to build and train the CNN model.
 
 This structure will make your GitHub repository clear and easy to follow for anyone interested in your project. Let me know if you need any adjustments!
 
-## Contact 📬
+# Contact 📬
 
 If you have any questions or suggestions, feel free to reach out!
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [nandini04.goyal@gmail.com](mailto:nandini04.goyal@gmail.com)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/your-linkedin)
 - **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
 
