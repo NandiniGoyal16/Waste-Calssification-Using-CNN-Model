@@ -125,7 +125,8 @@ path = kagglehub.dataset_download("techsash/waste-classification-data")
 print("Path to dataset files:", path)
 ```
 ## Train the model:
-```hist = model.fit(
+```
+hist = model.fit(
     train_generator, 
     epochs=10, 
     validation_data=test_generator
