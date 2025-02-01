@@ -218,9 +218,9 @@ Actual Classes: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
 
 # 🎯 Future Improvements
 
-🔹 Enhance Dataset: Include more diverse images to improve generalization.
-🔹 Hyperparameter Tuning: Experiment with different optimizers and learning rates.
-🔹 Transfer Learning: Use a pre-trained model like ResNet or VGG16 for better feature extraction.
+- 🔹 Enhance Dataset: Include more diverse images to improve generalization.
+- 🔹 Hyperparameter Tuning: Experiment with different optimizers and learning rates.
+- 🔹 Transfer Learning: Use a pre-trained model like ResNet or VGG16 for better feature extraction.
 
 # 📢 Credits
 
