@@ -1,6 +1,6 @@
 # Waste Management Using CNN Model ♻️
 
-## Overview
+## Project Overview
 This project implements a Convolutional Neural Network (CNN) to classify waste images into two categories: **Organic** and **Recyclable**. The model is designed to automate waste management by classifying images of waste products efficiently using deep learning.
 
 # Table of Contents
@@ -10,10 +10,27 @@ This project implements a Convolutional Neural Network (CNN) to classify waste i
 - [Week-wise Work Done](#week-wise-work-done)
 - [Usage](#usage)
 - [License](#license)
+- [Model Performance](#Model-Performance)
+- [Accuracy & Loss Graphs](#Accuracy-&-Loss-Graphs)
+- [Testing the Model](#Testing-the-Model)
+- [Making Predictions](#Making-Predictions)
+- [Visualizing Sample Predictions](#Visualizing-Sample-Predictions)
+- [Conclusion & Summary](#Conclusion-&-Summary)
+- [Future Improvements](#Future-Improvements)
+- [Credits](#Credits)
+- [License](#License)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ---
+
+## Technologies Used  
+- Python  
+- TensorFlow/Keras  
+- OpenCV  
+- NumPy  
+- Pandas  
+- Matplotlib
 
 ## Dataset 📂
 The dataset for the project is linked here: [Waste Classification Dataset](https://www.kaggle.com/datasets/techsash/waste-classification-data).
@@ -28,28 +45,18 @@ print("Path to dataset files:", path)
 # Technologies & Requirements ⚙️
 
 Libraries Used:
+```
 tensorflow
 keras
 numpy
 pandas
-cv2 (OpenCV)
-matplotlib
-tqdm
-Python Dependencies:
-Install the required libraries by running:
-```
-pip install -r requirements.txt
-```
-requirements.txt:
-```
-tensorflow
-numpy
-pandas
 opencv-python
+cv2 (OpenCV)
 matplotlib
 tqdm
 kagglehub
 ```
+
 # Week-wise Work Done 📅
 
 ## Week 1: Data Preprocessing and Visualization
@@ -228,7 +235,7 @@ Developed by [Nandini Goyal]
 
 # License 📜
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - See the [LICENSE](LICENSE) file for details. 
 
 # Acknowledgments 🎉
 
