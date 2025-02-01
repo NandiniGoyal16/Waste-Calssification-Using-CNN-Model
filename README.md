@@ -119,8 +119,6 @@ model.summary()
 
 ## Clone the repository:
 ```git clone https://github.com/yourusername/waste-management-cnn.git```
-## Install dependencies:
-```pip install -r requirements.txt```
 ## Download the dataset:
 ```import kagglehub # you may have to pip install that!
 path = kagglehub.dataset_download("techsash/waste-classification-data")
