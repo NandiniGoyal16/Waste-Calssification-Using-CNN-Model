@@ -136,6 +136,101 @@ hist = model.fit(
 ```
 ## Evaluate the model: After training, you can evaluate the model's performance on the test set.
 
+# 📈 Model Performance
+
+The model was evaluated on test data, yielding the following results:
+
+✅ Test Accuracy: 89.61%
+
+✅ Test Loss: 0.3773
+
+This means the model correctly classifies waste in 89 out of 100 cases on unseen data.
+
+# 📊 Accuracy & Loss Graphs
+
+Two key metrics are plotted:
+
+Accuracy Graph: Shows improvement over epochs.
+
+Loss Graph: Helps monitor overfitting.
+```
+import matplotlib.pyplot as plt
+
+train_acc = hist.history['accuracy']
+val_acc = hist.history['val_accuracy']
+train_loss = hist.history['loss']
+val_loss = hist.history['val_loss']
+
+epochs = range(1, len(train_acc) + 1)
+
+plt.figure(figsize=(12, 5))
+plt.subplot(1, 2, 1)
+plt.plot(epochs, train_acc, 'bo-', label='Training Accuracy')
+plt.plot(epochs, val_acc, 'ro-', label='Validation Accuracy')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.title('Training vs Validation Accuracy')
+plt.legend()
+
+plt.subplot(1, 2, 2)
+plt.plot(epochs, train_loss, 'bo-', label='Training Loss')
+plt.plot(epochs, val_loss, 'ro-', label='Validation Loss')
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.title('Training vs Validation Loss')
+plt.legend()
+
+plt.show()
+```
+
+# 🛠 Testing the Model
+
+The trained model is loaded and evaluated on test images
+
+# 🏷 Making Predictions
+
+The model predicts the class labels of test images
+
+# 🖼️ Visualizing Sample Predictions
+
+Randomly selected images are displayed with predicted labels
+
+# 📌 Conclusion & Summary
+
+## 1️⃣ Overview of the Model
+
+The CNN model classifies waste into Organic (O) and Recyclable (R) categories.
+
+Used convolutional layers, max-pooling, batch normalization, and dense layers.
+
+Optimized using categorical cross-entropy loss and evaluated based on accuracy.
+
+## 2️⃣ Model Evaluation on Test Data
+
+✅ Test Accuracy: 89.61%
+
+✅ Test Loss: 0.3773
+
+🔹 The model performs well on unseen data, with minimal overfitting.
+
+## 3️⃣ Predictions and Sample Results
+
+Predicted vs. Actual Classes:
+
+Predicted Classes: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+Actual Classes: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+
+# 🎯 Future Improvements
+
+🔹 Enhance Dataset: Include more diverse images to improve generalization.
+🔹 Hyperparameter Tuning: Experiment with different optimizers and learning rates.
+🔹 Transfer Learning: Use a pre-trained model like ResNet or VGG16 for better feature extraction.
+
+# 📢 Credits
+
+Developed by [Nandini Goyal]
+
 # License 📜
 
 This project is licensed under the MIT License - see the LICENSE file for details.
