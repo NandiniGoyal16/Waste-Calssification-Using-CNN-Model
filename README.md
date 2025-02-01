@@ -120,10 +120,7 @@ model.summary()
 ## Clone the repository:
 ```git clone https://github.com/yourusername/waste-management-cnn.git```
 ## Download the dataset:
-```import kagglehub # you may have to pip install that!
-path = kagglehub.dataset_download("techsash/waste-classification-data")
-print("Path to dataset files:", path)
-```
+Dataset for the project is linked here: ```https://www.kaggle.com/datasets/techsash/waste-classification-data```
 ## Train the model:
 ```
 hist = model.fit(
