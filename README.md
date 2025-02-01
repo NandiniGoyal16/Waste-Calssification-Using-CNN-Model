@@ -239,9 +239,9 @@ This project is licensed under the MIT License - See the [LICENSE](LICENSE) file
 
 # Acknowledgments 🎉
 
-Dataset Source: Kaggle - Waste Classification Dataset
-OpenCV: Used for image preprocessing and visualization.
-TensorFlow/Keras: Used to build and train the CNN model.
+- Dataset Source: Kaggle - Waste Classification Dataset
+- OpenCV: Used for image preprocessing and visualization.
+- TensorFlow/Keras: Used to build and train the CNN model.
 
 ### Explanation of the Sections:
 - **Overview**: A brief description of the project.
@@ -251,8 +251,6 @@ TensorFlow/Keras: Used to build and train the CNN model.
 - **Usage**: Instructions on how to clone the repo, install dependencies, and run the model.
 - **License**: Adds a standard MIT License section, which you can customize or change based on your preference.
 - **Acknowledgments**: Credit for dataset and libraries used.
-
-This structure will make your GitHub repository clear and easy to follow for anyone interested in your project. Let me know if you need any adjustments!
 
 # Contact 📬
 
