@@ -1,8 +1,5 @@
 # Waste Management Using CNN Model ♻️
 
-## Project Overview
-This project implements a Convolutional Neural Network (CNN) to classify waste images into two categories: **Organic** and **Recyclable**. The model is designed to automate waste management by classifying images of waste products efficiently using deep learning.
-
 # Table of Contents
 - [Project Overview](#overview)
 - [Dataset](#dataset)
@@ -24,13 +21,8 @@ This project implements a Convolutional Neural Network (CNN) to classify waste i
 
 ---
 
-## Technologies Used  
-- Python  
-- TensorFlow/Keras  
-- OpenCV  
-- NumPy  
-- Pandas  
-- Matplotlib
+## Project Overview
+This project implements a Convolutional Neural Network (CNN) to classify waste images into two categories: **Organic** and **Recyclable**. The model is designed to automate waste management by classifying images of waste products efficiently using deep learning.
 
 ## Dataset 📂
 The dataset for the project is linked here: [Waste Classification Dataset](https://www.kaggle.com/datasets/techsash/waste-classification-data).
@@ -46,6 +38,7 @@ print("Path to dataset files:", path)
 
 Libraries Used:
 ```
+Python
 tensorflow
 keras
 numpy
@@ -56,7 +49,6 @@ matplotlib
 tqdm
 kagglehub
 ```
-
 # Week-wise Work Done 📅
 
 ## Week 1: Data Preprocessing and Visualization
