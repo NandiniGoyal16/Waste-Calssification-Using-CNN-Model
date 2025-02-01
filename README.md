@@ -53,9 +53,9 @@ kagglehub
 # Week-wise Work Done 📅
 
 ## Week 1: Data Preprocessing and Visualization
-Data Loading: Loaded images from the training and testing dataset folders.
-Image Preprocessing: Converted the images to RGB format using OpenCV's cv2.cvtColor().
-Data Visualization: Used a pie chart to visualize the distribution of waste categories (Organic and Recyclable).
+- Data Loading: Loaded images from the training and testing dataset folders.
+- Image Preprocessing: Converted the images to RGB format using OpenCV's cv2.cvtColor().
+- Data Visualization: Used a pie chart to visualize the distribution of waste categories (Organic and Recyclable).
 
 ```
 x_data = []
@@ -73,9 +73,9 @@ plt.pie(data.label.value_counts(), labels=['Organic', 'Recyclable'], autopct='%0
 plt.show()
 ```
 ## Week 2: Model Architecture & Training
-Model Architecture: Defined a CNN architecture using Conv2D, MaxPooling2D, Flatten, Dense layers to classify images.
-Compilation: Compiled the model with the Adam optimizer and binary cross-entropy loss function.
-Model Training: Trained the model using the ImageDataGenerator class for both the training and testing datasets.
+- Model Architecture: Defined a CNN architecture using Conv2D, MaxPooling2D, Flatten, Dense layers to classify images.
+- Compilation: Compiled the model with the Adam optimizer and binary cross-entropy loss function.
+- Model Training: Trained the model using the ImageDataGenerator class for both the training and testing datasets.
 ```
 model = Sequential()
 
