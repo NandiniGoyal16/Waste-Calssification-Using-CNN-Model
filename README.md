@@ -114,6 +114,21 @@ model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"]
 # Summary of the model architecture
 model.summary()
 ```
+## Week 3: Plotting Accuracy and Loss graphs & making predictions on the data
+📊 Accuracy & Loss Graphs
+- ✅ Plotted Training vs. Validation Accuracy graph.
+- ✅ Plotted Training vs. Validation Loss graph.
+- ✅ Analyzed overfitting by comparing training and validation metrics.
+
+🔍 Waste Classification Prediction
+- ✅ Loaded the trained CNN model for waste classification.
+- ✅ Processed test images and resized them to 224x224 pixels.
+- ✅ Normalized image pixel values for better model performance.
+- ✅ Predicted whether an image is ♻️ Recyclable or 🍃 Organic Waste.
+- ✅ Displayed actual vs. predicted labels with visualizations.
+
+🚀 Moving forward, I aim to improve model accuracy and handle misclassifications better!
+
 # Usage 🚀
 
 ## Clone the repository:
